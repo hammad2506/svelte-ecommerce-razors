@@ -1,0 +1,31 @@
+{
+	"plugins": [],
+	"parserOptions": {
+		"ecmaVersion": 9,
+		"sourceType": "module"
+	},
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true,
+		"jest": true
+	},
+	"rules": {
+		"block-scoped-var": "error",
+		"camelcase": ["error", {
+			"properties": "always"
+		}],
+		"complexity": ["warn", 30],
+		"curly": ["error", "all"],
+		"no-unused-vars": 1,
+		"no-var": "warn",
+		"one-var": ["warn", {
+			"var": "never",
+			"let": "never",
+			"const": "never"
+		}],
+		"prefer-const": 1,
+		"quotes": ["warn", "double"],
+		"semi": 1
+	}
+}

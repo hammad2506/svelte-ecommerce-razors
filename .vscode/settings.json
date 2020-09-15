@@ -1,0 +1,13 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "editor.formatOnSave": true,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.tabSize": 2,
+    "[json]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 0
+}
